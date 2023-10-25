@@ -4,7 +4,7 @@ import glm
 import math
 
 #resolution
-WINDOW_RESOLUTION = glm.vec2(1600,900)
+WINDOW_RESOLUTION = glm.vec2(900,900)
 
 #background color
 BG_COLOR = glm.vec3(0.1, 0.2, 0.99)
