@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>An English Word List</title>
+<center>
+<h1>An
+English Word List</h1>
+</center>
+</head>
+<body>
+<hr>
+<font size=+1>
+
+The link below references an alphabetized list of English words produced
+from a number of texts available free on the net.
+
+Since the
+sources
+were ASCII, the result is ASCII.  The programs used to produce this were
+all standard 
+<a href="routledge/unix.html">Unix</a> 
+<a href="routledge/regex.html">tools</a>,
+including <font size=+2><tt>ex, sed,
+awk</tt></font>, and <font size=+2><tt>sort</tt></font>.
+
+<p>
+<font size=+1>
+
+The word list itself contains <b>69,903</b> words, and takes up
+<b>665,681</b> bytes (that's about two-thirds of a megabyte).  There are
+also 69,903 lines in the file, since each word is on a line by itself.
+I.e, the file (which is called <i> wordlist </i>)
+is big and long, and so are most of the words in it. This in turn means
+that
+many if not most of the words are rare, obsolete, or simply weird.  
+Furthermore, the entire file is in lower case, including all the proper
+names.
+However, 
+you can look up the strange words at 
+<a href="http://narp.oed.com/patroget.html">1911
+version of Roget's
+Thesaurus</a>, 
+<p>
+
+
+I made this list from these sources as an exercise in applying Unix tools,
+and as something
+to give my students something to play with.  That's all it is.
+It may be useful to you, which is why I put it here.  Or it may not.
+<br><a href="disclaimers.html">No warrantees, implied or expressed.</a>
+
+<p>
+
+You can do whatever you like with it; it's <b>your</b> language, after
+all. &#160;<tt> </tt>  For instance, 
+
+if you were using <a href="routledge/unix.html">Unix</a> 
+(or 
+<a href="http://www.linux.org/">Linux</a>),
+
+and you were curious about the English words that 
+
+ended in
+<i>-ically</i>,
+or the ones that started with 
+<i>antid-</i>,
+then
+
+the
+<font size=+2><tt>
+egrep
+</tt></font> 
+(or
+<font size=+2><tt>
+grep</tt></font>)
+commands
+
+<ul>
+<dd><li>
+<font size=+2><tt>
+<b>grep 'ical$' wordlist | less </b>
+</tt></font>
+
+<dd><li>
+<font size=+2><tt>
+<b>grep '^antid' wordlist | less </b>
+</tt></font>
+</ul>
+
+would present them to you instantly in the
+<b>
+<a href="http://www.gnu.org">gnu</a>
+</b>file
+viewer
+<font size=+2><tt>
+less</tt></font>
+<dd>(or if you preferred, 
+in the
+Unix standard viewer
+<font size=+2><tt>
+more</tt></font>,
+ instead
+of
+<font size=+2><tt>
+less</tt></font>).
+
+<p>
+To save this list on your disk, go to the "File" menu of your Web browser
+after it's done downloading and you've looked at it
+all you want, and choose <font size=+1><b>Save As</b></font>.  Then you
+can move the file
+<font size=+2><tt>
+wordlist</tt></font> to
+wherever you'd like.
+<hr>
+<center>
+<a href="wordlist">
+<h2>
+Download 
+wordlist
+</h2>
+</a>
+</center>
+</font>
+<hr>
+</font>
+</font>
+<i>
+Last change 3/8/99<br>
+<a href="index.html">John Lawler</a>
+</body>
+</html>
+
